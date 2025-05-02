@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1c1c1c;
+      padding: 15px 0;
+      text-align: center;
+      position: static;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    #about {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      padding: 10px 15px;
+    }
+
+    a:hover {
+      color: #00bcd4;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #2e2e2e;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+
+    h1 {
+      text-align: center;
+      color: #00bcd4;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 15px;
+      line-height: 1.7;
+      margin-bottom: 15px;
+    }
+
+    .back-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .back-link a {
+      color: #90caf9;
+      font-size: 14px;
+    }
+
+    .back-link a:hover {
+      color: #00bcd4;
+    }
+    @media (max-width: 600px) {
+      header{
+        gap: 10px;
+        position: sticky;
+        width: 100%;
+      }
+      #about{
+        flex-direction: column;
+        gap: 10px;
+      }    
+      a{
+        padding: 8px;
+        font-size: 14px;
+      }
+      .container{
+        margin: 20px;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div id="about">
+      <a href="index.html">Home</a>
+      <a href="About.html">About</a>
+      <a href="skills.html">Skills</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <h1>About Me</h1>
+    <p>Hello! I'm Sonali Gupta, a passionate and creative frontend enthusiast currently pursuing my BSc in Information Technology.</p>
+    <p>I enjoy turning ideas into visually appealing and functional websites. My focus is on writing clean, efficient code and creating user-friendly web experiences.</p>
+    <p>I'm constantly learning and love experimenting with new frontend tools and techniques. My journey into tech started with curiosity and has grown into a deep interest in web development.</p>
+    <p>When I’m not coding, I enjoy teaching young students, which helps me stay grounded and improves my communication skills.</p>
+  </div>
+
+  <div class="back-link">
+    <a href="index.html">&#8592; Go back</a>
+  </div>
+
+</body>
+</html>

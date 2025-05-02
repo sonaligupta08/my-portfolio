@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skills</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.83);
+            text-align: center;
+        }
+
+        a:hover {
+            background-color: rgb(124, 114, 114);
+            border-radius: 5px;
+            transform: scale(1.05);
+        }
+
+        header {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        #head {
+            background-color: rgb(69, 66, 66);
+            border: solid rgb(26, 24, 24) 2px;
+            border-radius: 15px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .skill {
+            text-align: center;
+            color: white;
+            margin-top: 200px;
+        }
+
+        .skill:hover {
+            color: blue;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .con {
+            background-color: #1a1a1a;
+            border-radius: 2px;
+            padding: 30px;
+            width: 80%;
+            margin: 30px auto;
+            text-align: center;
+            box-shadow: 0 0 10px rgb(255, 255, 255, 0.1);
+
+        }
+
+        .gri {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .cad {
+            background-color: #292929;
+            color: white;
+            border-radius: 15px;
+            padding: 20px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+
+
+        .cad:hover {
+            background-color: #1a1a1a;
+            border: solid 0.1px;
+            border-radius: #928585;
+        }
+
+        .cad i {
+            margin-right: 8px;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="head">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </header>
+    <a href="index.html"> &#8592; go back</a>
+    <h2 class="skill">Skills</h2>
+    <div class="con">
+        <h1>Frontend</h1>
+        <div class="gri">
+            <div class="cad"><i class="fab fa-html5"></i> HTML</div>
+            <div class="cad"><i class="fab fa-css3-alt"></i> CSS</div>
+            <div class="cad"><i class="fab fa-js"></i> JavaScript</div>
+            <div class="cad"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+            <div class="cad"><i class="fab fa-react"></i> React.js</div>
+            <div class="cad"><i class="fas fa-wind"></i> Tailwind</div>
+        </div>
+    </div>
+
+
+    </header>
+</body>
+
+</html>

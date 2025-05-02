@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div id="top">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="skills.html">Skills</a>
+            <a href="https://linkedin.com/in/sonaligupta2608" target="_blank">Contact</a>
+
+        </div>
+    </header>
+    <div class="container">
+        <h2 class="typewriter">
+            Hi, &#128075;<span id="white">I'm sonali Gupta</span><br><span id="blue"> Frontend </span><span
+                id="white">Developer
+                !!</span>
+        </h2>
+    </div>
+    <div id="intro">
+        <p>A frontend developer who specializes in <br>creating clean, and dynamic user experiences.<br> Let’s build
+            something amazing together!</p>
+    </div>
+    <div id="connect">
+        <button id="join" onclick="connecting()">Connect</button>
+    </div>
+    <h2 class="skills">Skills</h2>
+    <div class="contain">
+        <h1>Frontend</h1>
+        <div class="grid">
+            <div class="card"><i class="fab fa-html5"></i> HTML</div>
+            <div class="card"><i class="fab fa-css3-alt"></i> CSS</div>
+            <div class="card"><i class="fab fa-js"></i> JavaScript</div>
+            <div class="card"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+            <div class="card"><i class="fab fa-react"></i> React.js</div>
+            <div class="card"><i class="fas fa-wind"></i> Tailwind</div>
+        </div>
+    </div>
+    <div id="center">
+        <button id="next" onclick="nextclick()">Next &#128073;</button>
+    </div>
+    <div id="contain">
+        <form id="contact-form" action="https://formspree.io/f/xnndjdoe" method="post">
+            <h2>Get in Touch <button type="button" onclick="closeModal()" aria-label="Close form">✖</button></h2>
+            <label for="name"></label><br>
+            <input type="text" id="name" name="name" placeholder="Name" required><br><br>
+            <label for="email"></label><br>
+            <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+            <label for="message"></label><br>
+            <input type="text" id="message" name="message" placeholder="Enter your message" required><br><br>
+            <button id="connect-btn" type="submit">Submit</button>
+        </form>
+    </div>
+    <div id="thankyou" onclick="showthankyou"></div>
+        Thank you! your message has been send.
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
