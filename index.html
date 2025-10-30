@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body class="bg-dark text-white">
+    <section class="container-fluid py-5" id="home">
+        <!--Top Bar-->
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <h1 class="mb-3 mb-md-0">&lt;sonali/&gt;</h1>
+            <div class="topbar d-flex flex-wrap gap-3 fs-5">
+                <a href="#skills" class="nav-link text-white text-decoration-none">Skills</a>
+                <a href="#about" class="nav-link text-decoration-none">About</a>
+                <a href="#projects" class="nav-link text-decoration-none">Projects</a>
+                <a href="#contact" class="nav-link text-decoration-none">Contact</a>
+            </div>
+        </div>
+
+        <hr class="my-4" style="border-top: 1px solid #666; opacity: 0.5;">
+
+        <!--Intro section-->
+        <div class="row align-items-center justify-content-center text-center text-md-start px-4">
+            <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <h3 class="intro">
+                    Hi! I’m <span class="text-info fw-semibold" style="font-size: 1.8rem;">Sonali Gupta 👋</span><br>
+                    I turn caffeine into code, bugs into lessons, and ideas into working realities.🚀
+                </h3>
+            </div>
+            <div class="col-12 col-md-4 d-flex flex-column align-items-center">
+                <img src="avatar.avif" alt="loading...." class=" profile-img-glow rounded-circle" height="300px"
+                    width="300px">
+                <a href="#footer" class="btn btn-primary mt-4">Connect</a>
+            </div>
+        </div>
+    </section>
+
+    <!--about section-->
+    <section id="about" class="container-fluid py-5 mt-5">
+
+        <div class="d-flex flex-column align-items-center text-center">
+            <h2 class="mt-5">About</h2>
+            <p class="w-75">I’m passionate about coding and constantly exploring new technologies. Alongside my
+                technical journey, I also teach primary-grade students, which helps me to stay grounded and improve my
+                communication skills. In my free time, I enjoy sharing knowledge by writing tech-related blogs on Dev
+                Community.
+            </p>
+        </div>
+
+    </section>
+
+    <!--Skills-->
+    <section id="skills" class=" container-fluid py-5 mt-5">
+        <div class="d-flex flex-wrap justify-content-center gap-3" id="btnStyle">
+            <button>Html5 <i class="fa-brands fa-html5 fa-lg" style="color: #E44D26;"></i></button>
+            <button>Css3 <i class="fa-brands fa-css3-alt fa-lg" style="color: #2965f1;"></i></button>
+            <button>JavaScript <i class="fa-brands fa-js fa-lg" style="color: #f0db4f;"></i></button>
+            <button>Bootstrap <i class="fa-brands fa-bootstrap" style="color: #47357e;"></i></button>
+            <button>Reactjs <i class="fa-brands fa-react fa-lg" style="color: #61dafb;"></i></button>
+            <button>Java <i class="fa-brands fa-java fa-lg" style="color: #f89820;"></i></button>
+            <button>SpringBoot <i class="fa-solid fa-leaf fa-lg" style="color: #6DB33F;"></i></button>
+            <button>Mysql <i class="fa-solid fa-database fa-lg" style="color: #00758F;"></i></button>
+            <button>Git <i class="fa-brands fa-git-alt fa-lg" style="color: #F1502F;"></i></button>
+        </div>
+    </section>
+
+    <!--project section-->
+    <section id="projects" class="container py-5 mt-5">
+        <h2 class="text-center mb-4">My works</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card bg-dark text-white border border-info h-100">
+                    <!--image-->
+                    <div class="card-body d-flex flex-column">
+                        <image></image>
+                        <h5 class="card-title">PrepPulse</h5>
+                        <p class="card-text">
+                            A supportive and user-friendly pregnancy care website that offers guidance on health,
+                            nutrition, wellness, and self-care for expecting mothers. Built using HTML, CSS, JavaScript,
+                            and Bootstrap.
+                        </p>
+                        <ul class="list-unstyled small mb-3">
+                            <li>🔹 Calm and comforting UI for pregnant women</li>
+                            <li>🔹 Mobile-friendly responsive layout</li>
+                            <li>🔹 Deployed on Netlify</li>
+                        </ul>
+                        <div class="mt-auto">
+                            <a href="https://preppulse.netlify.app/" target="_blank"
+                                class="btn btn-outline-info btn-sm mb-2 w-100">🌐 View Live</a>
+                            <a href="https://github.com/sonaligupta08/preppulse" target="_blank"
+                                class="btn btn-outline-light btn-sm w-100">💻 GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--blogs-->
+    <div>
+
+    </div>
+
+    <!--contact-->
+    <section id="contact" class="container py-5">
+
+        <h2 class="mb-4 text-center">contact</h2>
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-lg-6">
+                <form action="https://formspree.io/f/xnndjdoe" method="POST" id="contact-form">
+
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Enter your name : </label>
+                        <input type="text" id="name" name="name"
+                            class="form-control bg-dark text-white border-secondary" placeholder="name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Enter your email : </label>
+                        <input type="email" id="email" name="email"
+                            class="form-control bg-dark text-white border-secondary" placeholder="name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label">your message:</label>
+                        <textarea id="message" name="message" class="form-control bg-dark text-white border-secondary"
+                            rows="4" placeholder="Message...." required></textarea>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-outline-info px-4">send</button>
+                        <div id="my-form-status"></div>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+
+    <!--footer section-->
+    <footer id="footer" class="bg-dark text-white py-5 mt-5">
+        <div class="container text-center">
+            <h5 class="mb-4">Let's connect</h5>
+            <div class="d-flex justify-content-center gap-4 fs-3">
+                <a href="https://github.com/sonaligupta08" target="_blank" class="text-white text-decoration-none">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/sonaligupta2608/" target="_blank"
+                    class="text-white text-decoration-none">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/sonali_bits" target="_blank" class="text-white text-decoration-none">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="mailto:misssonali2604@gmail.com" class="text-white text-decoration-none">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
