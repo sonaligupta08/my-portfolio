@@ -26,5 +26,5 @@ if (response.ok){
       status.innerHTML = "❌ Error sending message.";
     }
 }
-});
+);
 
