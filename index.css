@@ -1,3 +1,7 @@
+html{
+scroll-behavior:smooth;
+}
+
 body {
   background-color: rgb(18, 18, 18);
 }
@@ -66,7 +70,9 @@ body {
 }
 
 #footer a i {
-  transition: transform 0.3s ease, color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    color 0.3s ease;
 }
 
 #footer a:hover i {
@@ -82,11 +88,6 @@ body {
   word-wrap: break-word;
   max-width: 100%;
   white-space: pre-wrap;
-}
-
-#btnStyle button {
-  box-shadow: 0 0 10px #0d74d1;
-  padding: 8px;
 }
 #top-nav {
   position: sticky;
@@ -133,6 +134,37 @@ body {
   }
 }
 #btnStyle button{
-    border-radius: 60px;
-    padding: 13px;
+border-radius:60px;
+padding:13px;
+box-shadow:0 0 10px #0d74d1;
+transition:all 0.3s ease;
+background:transparent;
+color:white;
+border:1px solid #0dcaf0;
+}
+
+#btnStyle button:hover{
+transform:scale(1.1);
+box-shadow:0 0 20px #0dcaf0;
+background:#0dcaf0;
+color:black;
+}
+
+.card{
+transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover{
+transform: translateY(-10px);
+box-shadow:0 0 25px rgba(0,255,255,0.4);
+}
+
+.card-img-top{
+height:200px;
+object-fit:cover;
+}
+#top-nav{
+background:#121212;
+border-bottom:1px solid #333;
+backdrop-filter: blur(8px);
 }
